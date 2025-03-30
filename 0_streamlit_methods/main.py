@@ -33,12 +33,12 @@ st.write('This is my first streamlit app')
 # st.file_uploader('Choose file')
 
 # st.toggle('label')
-
+    
 # st.time_input('label')
 
 # st.number_input('Enter number')
 
-# st.text_input('Enter')
+# st.text_input('Enter Text :')
 
 
 # if st.button('Click here'):
@@ -46,3 +46,12 @@ st.write('This is my first streamlit app')
 #     st.write('Button is Clicked')
 # else:
 #     st.write('Click the button to see beautiful color Bloon')
+
+
+# import random
+# a = random.random()
+# b = random.random()
+# if st.button('Add Number'):
+#  st.write(a+b)
+
+
